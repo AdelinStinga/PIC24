@@ -1,0 +1,73 @@
+V3 46
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ALU.vhd 2021/01/13.18:23:46 J.40
+EN work/ALU 1610716527 FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ALU.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ALU/Behavioral 1610716528 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ALU.vhd EN work/ALU 1610716527
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/CTRL.vhd 2021/01/13.15:40:57 J.40
+EN work/CTRL 1610716529 FL D:/Adelin/Facultate/ANUL3/Project/PIC24/CTRL.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/CTRL/Behavioral 1610716530 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/CTRL.vhd EN work/CTRL 1610716529
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/DataMem.vhd 2021/01/13.15:01:27 J.40
+EN work/DataMem 1610716531 FL D:/Adelin/Facultate/ANUL3/Project/PIC24/DataMem.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/DataMem/Behavioral 1610716532 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/DataMem.vhd EN work/DataMem 1610716531
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/File_Regs.vhd 2021/01/13.14:39:32 J.40
+EN work/File_Regs 1610716533 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/File_Regs.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/File_Regs/Behavioral 1610716534 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/File_Regs.vhd EN work/File_Regs 1610716533
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x16.vhd 2021/01/13.15:05:10 J.40
+EN work/MUX2x16 1610716537 FL D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x16.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2x16/Behavioral 1610716538 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x16.vhd EN work/MUX2x16 1610716537
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x4.vhd 2021/01/13.14:10:56 J.40
+EN work/MUX2x4 1610716535 FL D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x4.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/MUX2x4/Behavioral 1610716536 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x4.vhd EN work/MUX2x4 1610716535
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/PC_Update.vhd 2021/01/13.13:32:23 J.40
+EN work/PC_Update 1610716539 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/PC_Update.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/PC_Update/Behavioral 1610716540 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/PC_Update.vhd EN work/PC_Update 1610716539
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.vhf 2021/01/15.15:15:24 J.40
+EN work/PIC24 1610725967 FL D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.vhf \
+      PB ieee/std_logic_1164 1192821031 PH ieee/NUMERIC_STD 1192821033 LB UNISIM \
+      PH unisim/VCOMPONENTS 1194566982
+AR work/PIC24/BEHAVIORAL 1610725968 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.vhf EN work/PIC24 1610725967 \
+      CP ALU CP CTRL CP DataMem CP File_Regs CP MUX2x4 CP MUX2x16 CP PC_Update \
+      CP ProgCnt CP ROM32x24
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ProgCnt.vhd 2020/11/28.23:05:24 J.40
+EN work/ProgCnt 1610716541 FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ProgCnt.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ProgCnt/Behavioral 1610716542 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ProgCnt.vhd EN work/ProgCnt 1610716541
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24.vhd 2021/01/14.20:51:58 J.40
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_instr_final.vhd 2021/01/14.23:00:47 J.40
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_test1.vhd 2021/01/14.21:17:46 J.40
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_testC.vhd 2021/01/14.21:36:02 J.40
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_testN.vhd 2021/01/15.15:05:03 J.40
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_testOV.vhd 2021/01/15.15:14:08 J.40
+EN work/ROM32x24 1610716543 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_testOV.vhd \
+      PB ieee/std_logic_1164 1192821031 PB ieee/std_logic_arith 1192821032 \
+      PB ieee/STD_LOGIC_UNSIGNED 1192821033
+AR work/ROM32x24/ROM32x24_arch 1610716544 \
+      FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_testOV.vhd \
+      EN work/ROM32x24 1610716543
+FL D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_testZ.vhd 2021/01/15.14:50:59 J.40

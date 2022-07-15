@@ -1,0 +1,670 @@
+Release 9.2.04i - xst J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.10 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.10 s | Elapsed : 0.00 / 1.00 s
+ 
+--> Reading design: PIC24.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "PIC24.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "PIC24"
+Output Format                      : NGC
+Target Device                      : xc3s400-4-ft256
+
+---- Source Options
+Top Module Name                    : PIC24
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 8
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : PIC24.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/ALU.vhd" in Library work.
+Architecture behavioral of Entity alu is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/CTRL.vhd" in Library work.
+Architecture behavioral of Entity ctrl is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/DataMem.vhd" in Library work.
+Architecture behavioral of Entity datamem is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/File_Regs.vhd" in Library work.
+Architecture behavioral of Entity file_regs is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x4.vhd" in Library work.
+Architecture behavioral of Entity mux2x4 is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x16.vhd" in Library work.
+Architecture behavioral of Entity mux2x16 is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/PC_Update.vhd" in Library work.
+Architecture behavioral of Entity pc_update is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/ProgCnt.vhd" in Library work.
+Architecture behavioral of Entity progcnt is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_testOV.vhd" in Library work.
+Architecture rom32x24_arch of Entity rom32x24 is up to date.
+Compiling vhdl file "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.vhf" in Library work.
+Entity <pic24> compiled.
+Entity <pic24> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <PIC24> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ALU> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CTRL> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <DataMem> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <File_Regs> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX2x4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MUX2x16> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <PC_Update> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ProgCnt> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ROM32x24> in library <work> (architecture <rom32x24_arch>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <PIC24> in library <work> (Architecture <behavioral>).
+Entity <PIC24> analyzed. Unit <PIC24> generated.
+
+Analyzing Entity <ALU> in library <work> (Architecture <behavioral>).
+Entity <ALU> analyzed. Unit <ALU> generated.
+
+Analyzing Entity <CTRL> in library <work> (Architecture <behavioral>).
+Entity <CTRL> analyzed. Unit <CTRL> generated.
+
+Analyzing Entity <DataMem> in library <work> (Architecture <behavioral>).
+Entity <DataMem> analyzed. Unit <DataMem> generated.
+
+Analyzing Entity <File_Regs> in library <work> (Architecture <behavioral>).
+Entity <File_Regs> analyzed. Unit <File_Regs> generated.
+
+Analyzing Entity <MUX2x4> in library <work> (Architecture <behavioral>).
+Entity <MUX2x4> analyzed. Unit <MUX2x4> generated.
+
+Analyzing Entity <MUX2x16> in library <work> (Architecture <behavioral>).
+Entity <MUX2x16> analyzed. Unit <MUX2x16> generated.
+
+Analyzing Entity <PC_Update> in library <work> (Architecture <behavioral>).
+Entity <PC_Update> analyzed. Unit <PC_Update> generated.
+
+Analyzing Entity <ProgCnt> in library <work> (Architecture <behavioral>).
+Entity <ProgCnt> analyzed. Unit <ProgCnt> generated.
+
+Analyzing Entity <ROM32x24> in library <work> (Architecture <rom32x24_arch>).
+Entity <ROM32x24> analyzed. Unit <ROM32x24> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ALU>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/ALU.vhd".
+WARNING:Xst:737 - Found 17-bit latch for signal <Carry>.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:737 - Found 16-bit latch for signal <Result>.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 1-bit register for signal <C>.
+    Found 1-bit register for signal <N>.
+    Found 1-bit register for signal <Z>.
+    Found 1-bit register for signal <OV>.
+    Found 17-bit adder carry in for signal <Carry$mux0000>.
+    Found 1-bit xor2 for signal <FBCL$xor0000> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0001> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0002> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0003> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0004> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0005> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0006> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0007> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0008> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0009> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0010> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0011> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0012> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0013> created at line 58.
+    Found 1-bit xor2 for signal <FBCL$xor0014> created at line 58.
+    Found 1-bit xor2 for signal <overflow$xor0000> created at line 104.
+    Found 1-bit xor2 for signal <overflow$xor0001> created at line 104.
+    Found 1-bit xor2 for signal <overflow$xor0002> created at line 104.
+    Found 16-bit adder for signal <Result$addsub0000> created at line 78.
+    Found 5-bit xor2 for signal <Result$xor0000> created at line 78.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+	inferred   2 Adder/Subtractor(s).
+Unit <ALU> synthesized.
+
+
+Synthesizing Unit <CTRL>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/CTRL.vhd".
+WARNING:Xst:737 - Found 3-bit latch for signal <ALU_OP>.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+Unit <CTRL> synthesized.
+
+
+Synthesizing Unit <DataMem>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/DataMem.vhd".
+    Found 16x16-bit single-port RAM <Mram_RAM> for signal <RAM>.
+    Found 16-bit register for signal <OUTW0>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 D-type flip-flop(s).
+Unit <DataMem> synthesized.
+
+
+Synthesizing Unit <File_Regs>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/File_Regs.vhd".
+    Found 16x16-bit dual-port RAM <Mram_s16Regs16> for signal <s16Regs16>.
+    Found 16x16-bit dual-port RAM <Mram_s16Regs16_ren> for signal <s16Regs16>.
+    Summary:
+	inferred   2 RAM(s).
+Unit <File_Regs> synthesized.
+
+
+Synthesizing Unit <MUX2x4>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x4.vhd".
+Unit <MUX2x4> synthesized.
+
+
+Synthesizing Unit <MUX2x16>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/MUX2x16.vhd".
+Unit <MUX2x16> synthesized.
+
+
+Synthesizing Unit <PC_Update>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/PC_Update.vhd".
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+WARNING:Xst:2734 - Property "use_dsp48" is not applicable for this technology.
+    Found 6-bit adder for signal <New_PC$share0000>.
+    Found 6-bit adder for signal <PC_P2>.
+    Summary:
+	inferred   2 Adder/Subtractor(s).
+Unit <PC_Update> synthesized.
+
+
+Synthesizing Unit <ProgCnt>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/ProgCnt.vhd".
+    Found 6-bit register for signal <PC>.
+    Summary:
+	inferred   6 D-type flip-flop(s).
+Unit <ProgCnt> synthesized.
+
+
+Synthesizing Unit <ROM32x24>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/ROM32x24_testOV.vhd".
+    Found 32x24-bit ROM for signal <Data$rom0000> created at line 81.
+    Summary:
+	inferred   1 ROM(s).
+Unit <ROM32x24> synthesized.
+
+
+Synthesizing Unit <PIC24>.
+    Related source file is "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.vhf".
+Unit <PIC24> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 3
+ 16x16-bit dual-port RAM                               : 2
+ 16x16-bit single-port RAM                             : 1
+# ROMs                                                 : 1
+ 32x24-bit ROM                                         : 1
+# Adders/Subtractors                                   : 4
+ 16-bit adder                                          : 1
+ 17-bit adder carry in                                 : 1
+ 6-bit adder                                           : 2
+# Registers                                            : 6
+ 1-bit register                                        : 4
+ 16-bit register                                       : 1
+ 6-bit register                                        : 1
+# Latches                                              : 3
+ 16-bit latch                                          : 1
+ 17-bit latch                                          : 1
+ 3-bit latch                                           : 1
+# Xors                                                 : 19
+ 1-bit xor2                                            : 18
+ 5-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s400.nph' in environment C:\Xilinx92i.
+INFO:Xst:2694 - Unit <PIC24> : The ROM <ROM32v24/Mrom_Data_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <ProgCounter/PC>.
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 32-word x 24-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <New_PC>        |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <Instr>         |          |
+    -----------------------------------------------------------------------
+    | optimisation       | speed                               |          |
+    -----------------------------------------------------------------------
+INFO:Xst:2664 - HDL ADVISOR - Unit <DataMem> : The RAM <Mram_RAM> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 16-bit                    |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <_and0000>      | high     |
+    |     addrA          | connected to signal <Addr>          |          |
+    |     diA            | connected to signal <DataIn>        |          |
+    |     doA            | connected to signal <MemData>       |          |
+    -----------------------------------------------------------------------
+INFO:Xst:2664 - HDL ADVISOR - Unit <File_Regs> : The RAM <Mram_s16Regs16> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 16-bit                    |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <WrEn>          | high     |
+    |     addrA          | connected to signal <WrReg>         |          |
+    |     diA            | connected to signal <WrData>        |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 16-word x 16-bit                    |          |
+    |     addrB          | connected to signal <RdReg1>        |          |
+    |     doB            | connected to signal <RdData1>       |          |
+    -----------------------------------------------------------------------
+INFO:Xst:2664 - HDL ADVISOR - Unit <File_Regs> : The RAM <Mram_s16Regs16_ren> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 16-bit                    |          |
+    |     clkA           | connected to signal <Clk>           | rise     |
+    |     weA            | connected to signal <WrEn>          | high     |
+    |     addrA          | connected to signal <WrReg>         |          |
+    |     diA            | connected to signal <WrData>        |          |
+    -----------------------------------------------------------------------
+    | Port B                                                              |
+    |     aspect ratio   | 16-word x 16-bit                    |          |
+    |     addrB          | connected to signal <RdReg2>        |          |
+    |     doB            | connected to signal <RdData2>       |          |
+    -----------------------------------------------------------------------
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 4
+ 16x16-bit dual-port distributed RAM                   : 2
+ 16x16-bit single-port distributed RAM                 : 1
+ 32x24-bit single-port block RAM                       : 1
+# Adders/Subtractors                                   : 4
+ 16-bit adder                                          : 1
+ 17-bit adder carry in                                 : 1
+ 6-bit adder                                           : 2
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+# Latches                                              : 3
+ 16-bit latch                                          : 1
+ 17-bit latch                                          : 1
+ 3-bit latch                                           : 1
+# Xors                                                 : 19
+ 1-bit xor2                                            : 18
+ 5-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <PIC24> ...
+
+Optimizing unit <DataMem> ...
+
+Optimizing unit <PC_Update> ...
+
+Optimizing unit <ALU> ...
+
+Optimizing unit <CTRL> ...
+WARNING:Xst:1293 - FF/Latch  <ProgCounter/PC_0> has a constant value of 0 in block <PIC24>.
+WARNING:Xst:2677 - Node <ProgCounter/PC_5> of sequential type is unconnected in block <PIC24>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block PIC24, actual ratio is 6.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 24
+ Flip-Flops                                            : 24
+
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : PIC24.ngr
+Top Level Output File Name         : PIC24
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 49
+
+Cell Usage :
+# BELS                             : 368
+#      GND                         : 1
+#      INV                         : 1
+#      LUT2                        : 16
+#      LUT3                        : 65
+#      LUT4                        : 187
+#      LUT4_D                      : 1
+#      LUT4_L                      : 6
+#      MUXCY                       : 19
+#      MUXF5                       : 52
+#      VCC                         : 1
+#      XORCY                       : 19
+# FlipFlops/Latches                : 60
+#      FD                          : 4
+#      FDE                         : 20
+#      LD                          : 19
+#      LDCP                        : 17
+# RAMS                             : 49
+#      RAM16X1D                    : 32
+#      RAM16X1S                    : 16
+#      RAMB16_S36                  : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 48
+#      IBUF                        : 32
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s400ft256-4 
+
+ Number of Slices:                     190  out of   3584     5%  
+ Number of Slice Flip Flops:            60  out of   7168     0%  
+ Number of 4 input LUTs:               356  out of   7168     4%  
+    Number used as logic:              276
+    Number used as RAMs:                80
+ Number of IOs:                         49
+ Number of bonded IOBs:                 49  out of    173    28%  
+ Number of BRAMs:                        1  out of     16     6%  
+ Number of GCLKs:                        1  out of      8    12%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------+--------------------------+-------+
+Clock Signal                                     | Clock buffer(FF name)    | Load  |
+-------------------------------------------------+--------------------------+-------+
+Clk                                              | BUFGP                    | 72    |
+ALUU/Carry_cmp_eq0000(ALUU/Carry_cmp_eq000011:O) | NONE(*)(ALUU/Carry_9)    | 17    |
+ALUU/Result_not0002(ALUU/Result_not000211:O)     | NONE(*)(ALUU/Result_3)   | 16    |
+CONTROL/ALU_OP_not0001(CONTROL/ALU_OP_not00011:O)| NONE(*)(CONTROL/ALU_OP_1)| 3     |
+-------------------------------------------------+--------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------+------------------------+-------+
+Control Signal                                   | Buffer(FF name)        | Load  |
+-------------------------------------------------+------------------------+-------+
+ALUU/Carry_9__and0000(ALUU/Carry_9__and00001:O)  | NONE(ALUU/Carry_9)     | 1     |
+ALUU/Carry_9__and0001(ALUU/Carry_9__and00011:O)  | NONE(ALUU/Carry_9)     | 1     |
+ALUU/Carry_7__and0000(ALUU/Carry_7__and00001:O)  | NONE(ALUU/Carry_7)     | 1     |
+ALUU/Carry_7__and0001(ALUU/Carry_7__and00011:O)  | NONE(ALUU/Carry_7)     | 1     |
+ALUU/Carry_13__and0000(ALUU/Carry_13__and00001:O)| NONE(ALUU/Carry_13)    | 1     |
+ALUU/Carry_13__and0001(ALUU/Carry_13__and00011:O)| NONE(ALUU/Carry_13)    | 1     |
+ALUU/Carry_2__and0000(ALUU/Carry_2__and00001:O)  | NONE(ALUU/Carry_2)     | 1     |
+ALUU/Carry_2__and0001(ALUU/Carry_2__and00011:O)  | NONE(ALUU/Carry_2)     | 1     |
+ALUU/Carry_12__and0000(ALUU/Carry_12__and00001:O)| NONE(ALUU/Carry_12)    | 1     |
+ALUU/Carry_12__and0001(ALUU/Carry_12__and00011:O)| NONE(ALUU/Carry_12)    | 1     |
+ALUU/Carry_10__and0000(ALUU/Carry_10__and00001:O)| NONE(ALUU/Carry_10)    | 1     |
+ALUU/Carry_10__and0001(ALUU/Carry_10__and00011:O)| NONE(ALUU/Carry_10)    | 1     |
+ALUU/Carry_6__and0000(ALUU/Carry_6__and00001:O)  | NONE(ALUU/Carry_6)     | 1     |
+ALUU/Carry_6__and0001(ALUU/Carry_6__and00011:O)  | NONE(ALUU/Carry_6)     | 1     |
+ALUU/Carry_1__and0000(ALUU/Carry_1__and00001:O)  | NONE(ALUU/Carry_1)     | 1     |
+ALUU/Carry_1__and0001(ALUU/Carry_1__and00011:O)  | NONE(ALUU/Carry_1)     | 1     |
+ALUU/Carry_15__and0000(ALUU/Carry_15__and00001:O)| NONE(ALUU/Carry_15)    | 1     |
+ALUU/Carry_15__and0001(ALUU/Carry_15__and00011:O)| NONE(ALUU/Carry_15)    | 1     |
+ALUU/Carry_14__and0000(ALUU/Carry_14__and00001:O)| NONE(ALUU/Carry_14)    | 1     |
+ALUU/Carry_14__and0001(ALUU/Carry_14__and00011:O)| NONE(ALUU/Carry_14)    | 1     |
+ALUU/Carry_3__and0000(ALUU/Carry_3__and00001:O)  | NONE(ALUU/Carry_3)     | 1     |
+ALUU/Carry_3__and0001(ALUU/Carry_3__and00011:O)  | NONE(ALUU/Carry_3)     | 1     |
+ALUU/Carry_8__and0000(ALUU/Carry_8__and00001:O)  | NONE(ALUU/Carry_8)     | 1     |
+ALUU/Carry_8__and0001(ALUU/Carry_8__and00011:O)  | NONE(ALUU/Carry_8)     | 1     |
+ALUU/Carry_4__and0000(ALUU/Carry_4__and00001:O)  | NONE(ALUU/Carry_4)     | 1     |
+ALUU/Carry_4__and0001(ALUU/Carry_4__and00011:O)  | NONE(ALUU/Carry_4)     | 1     |
+ALUU/Carry_5__and0000(ALUU/Carry_5__and00001:O)  | NONE(ALUU/Carry_5)     | 1     |
+ALUU/Carry_5__and0001(ALUU/Carry_5__and00011:O)  | NONE(ALUU/Carry_5)     | 1     |
+ALUU/Carry_16__and0000(ALUU/Carry_16__and00001:O)| NONE(ALUU/Carry_16)    | 1     |
+ALUU/Carry_16__and0001(ALUU/Carry_16__and00011:O)| NONE(ALUU/Carry_16)    | 1     |
+ALUU/Carry_0__and0000(ALUU/Carry_0__and00001:O)  | NONE(ALUU/Carry_0)     | 1     |
+ALUU/Carry_0__and0001(ALUU/Carry_0__and00011:O)  | NONE(ALUU/Carry_0)     | 1     |
+ALUU/Carry_11__and0000(ALUU/Carry_11__and00001:O)| NONE(ALUU/Carry_11)    | 1     |
+ALUU/Carry_11__and0001(ALUU/Carry_11__and00011:O)| NONE(ALUU/Carry_11)    | 1     |
+-------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 8.005ns (Maximum Frequency: 124.922MHz)
+   Minimum input arrival time before clock: 4.712ns
+   Maximum output required time after clock: 7.165ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 8.005ns (frequency: 124.922MHz)
+  Total number of paths / destination ports: 178 / 71
+-------------------------------------------------------------------------
+Delay:               8.005ns (Levels of Logic = 4)
+  Source:            inst_Mram_mem31 (RAM)
+  Destination:       ALUU/C (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: inst_Mram_mem31 to ALUU/C
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     RAM16X1D:WCLK->DPO   24   1.784   1.865  inst_Mram_mem31 (RdDataSource<15>)
+     LUT4:I2->O            1   0.551   0.996  ALUU/flag_carry154 (ALUU/flag_carry1_map20)
+     LUT2:I1->O            1   0.551   0.827  ALUU/flag_carry168 (ALUU/flag_carry1_map28)
+     LUT4_L:I3->LO         1   0.551   0.126  ALUU/flag_carry1129 (ALUU/flag_carry1_map43)
+     LUT4:I3->O            1   0.551   0.000  ALUU/flag_carry1176 (ALUU/flag_carry)
+     FDE:D                     0.203          ALUU/C
+    ----------------------------------------
+    Total                      8.005ns (4.191ns logic, 3.814ns route)
+                                       (52.4% logic, 47.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 64 / 32
+-------------------------------------------------------------------------
+Offset:              4.712ns (Levels of Logic = 4)
+  Source:            INW1<0> (PAD)
+  Destination:       inst_Mram_mem (RAM)
+  Destination Clock: Clk rising
+
+  Data Path: INW1<0> to inst_Mram_mem
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.821   1.140  INW1_0_IBUF (INW1_0_IBUF)
+     LUT4:I0->O            1   0.551   0.827  MUX2v16/Y<0>17 (MUX2v16/Y<0>_map6)
+     LUT4:I3->O            1   0.551   0.000  MUX2v16/Y<0>56_G (N3052)
+     MUXF5:I1->O           2   0.360   0.000  MUX2v16/Y<0>56 (WrData<0>)
+     RAM16X1D:D                0.462          inst_Mram_mem
+    ----------------------------------------
+    Total                      4.712ns (2.745ns logic, 1.967ns route)
+                                       (58.3% logic, 41.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 16 / 16
+-------------------------------------------------------------------------
+Offset:              7.165ns (Levels of Logic = 1)
+  Source:            DataMemory/OUTW0_15 (FF)
+  Destination:       OUTW0<15> (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: DataMemory/OUTW0_15 to OUTW0<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDE:C->Q              1   0.720   0.801  DataMemory/OUTW0_15 (DataMemory/OUTW0_15)
+     OBUF:I->O                 5.644          OUTW0_15_OBUF (OUTW0<15>)
+    ----------------------------------------
+    Total                      7.165ns (6.364ns logic, 0.801ns route)
+                                       (88.8% logic, 11.2% route)
+
+=========================================================================
+CPU : 6.67 / 6.79 s | Elapsed : 6.00 / 7.00 s
+ 
+--> 
+
+Total memory usage is 224676 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    9 (   0 filtered)
+Number of infos    :    8 (   0 filtered)
+

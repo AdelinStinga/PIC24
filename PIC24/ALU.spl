@@ -1,0 +1,17 @@
+[Inputs]
+Clk
+Flag_N
+Flag_C
+Flag_Z
+Flag_OV
+=RdDataBase[15:0]=
+=RdDataSource[15:0]=
+=ALU_OP[2:0]=
+=lit5[4:0]=
+[Outputs]
+N
+Z
+C
+OV
+=Y[15:0]=
+[BiDir]

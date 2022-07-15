@@ -1,0 +1,15 @@
+[Inputs]
+=Opcode[4:0]=
+[Outputs]
+Flag_N
+Flag_OV
+Flag_Z
+Flag_C
+MEMWr
+MEM2Reg
+RegWr
+RegBase
+RegDest
+Branch
+=ALU_OP[2:0]=
+[BiDir]

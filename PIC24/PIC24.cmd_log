@@ -1,0 +1,27 @@
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd
+sch2vhdl -intstyle ise -family spartan3 -flat -suppress -w "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.sch" PIC24.vhf
+xst -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ifn PIC24.xst -ofn PIC24.syr
+netgen -ise "D:/Adelin/Facultate/ANUL3/Project/PIC24/PIC24.ise" -intstyle ise -ar Structure -tm PIC24 -w -dir netgen/synthesis -ofmt vhdl -sim PIC24.ngc PIC24_synthesis.vhd

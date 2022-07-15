@@ -1,0 +1,530 @@
+m255
+K3
+13
+cModel Technology
+Z0 dD:\Adelin\Facultate\ANUL3\Project\PIC24
+Ealu
+Z1 w1610555026
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z3 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z5 8ALU.vhd
+Z6 FALU.vhd
+l0
+L30
+VMUj>63a?]XC3a8ck<4n903
+Z7 OX;C;6.4b;39
+31
+Z8 o-explicit -93 -O0
+Z9 tExplicit 1
+!s100 5cPNk_k9^loBXfl`Ia9<H1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 MUj>63a?]XC3a8ck<4n903
+l56
+L47
+V?eiN^9IgfOP:i`dR8gl>10
+R7
+31
+Z10 Mx3 4 ieee 14 std_logic_1164
+Z11 Mx2 4 ieee 15 std_logic_arith
+Z12 Mx1 4 ieee 18 std_logic_unsigned
+R8
+R9
+!s100 OJ9l2N:X>hjYSQ7eRCOC;1
+Ectrl
+Z13 w1610545257
+R2
+R3
+R4
+Z14 8CTRL.vhd
+Z15 FCTRL.vhd
+l0
+L30
+VjkmmFgIPH2RC:F<m==fam2
+R7
+31
+R8
+R9
+!s100 ;0JC7FY?W]:bZVT8d?O9L2
+Abehavioral
+R2
+R3
+R4
+DEx4 work 4 ctrl 0 22 jkmmFgIPH2RC:F<m==fam2
+l47
+L45
+V4fKG6dUWGnU^`4[2Q2m?K3
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 zlaSP2RGgWLkRNRRa`OBA2
+Edatamem
+Z16 w1610542887
+R2
+R3
+R4
+Z17 8DataMem.vhd
+Z18 FDataMem.vhd
+l0
+L30
+VZU3P_g=zbgfzL`aLMb<3F1
+R7
+31
+R8
+R9
+!s100 F]?;5NcLo9e;L4HYH:XZ@1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 datamem 0 22 ZU3P_g=zbgfzL`aLMb<3F1
+l51
+L45
+VYTDKSC^;:=nko7QO4;V073
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 ?BT8JTF^Tn:_Z_zj[M>8T0
+Efile_regs
+Z19 w1610541572
+R2
+R3
+R4
+Z20 8File_Regs.vhd
+Z21 FFile_Regs.vhd
+l0
+L30
+Vo0hdUKKL4h`mZ<6K:FXTQ1
+R7
+31
+R8
+R9
+!s100 0i1@DaF7L7aSaBU[IGi_F0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 9 file_regs 0 22 o0hdUKKL4h`mZ<6K:FXTQ1
+l50
+L43
+VBEPm<c;n>PjW0:a[:P_eL0
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 J__?R8`^L@kA49X6]3k?V0
+Emux2x16
+Z22 w1610543110
+R2
+R3
+R4
+Z23 8MUX2x16.vhd
+Z24 FMUX2x16.vhd
+l0
+L30
+VNS=[hZeYNk]EWf48LJ`Ba3
+R7
+31
+R8
+R9
+!s100 nc=<kBIZ;7=0FPBi5Z=0;0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 mux2x16 0 22 NS=[hZeYNk]EWf48LJ`Ba3
+l39
+L37
+VPoiL@`OFh;[3O5U:_nne60
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 <BNWf>fcR7Qe<E;K6eb=n1
+Emux2x4
+Z25 w1610539856
+R2
+R3
+R4
+Z26 8MUX2x4.vhd
+Z27 FMUX2x4.vhd
+l0
+L30
+V`^L1L@d0>BFgGX13ih9bV2
+R7
+31
+R8
+R9
+!s100 gdVDHmI9<5I`Wf<?XVd9c1
+Abehavioral
+R2
+R3
+R4
+DEx4 work 6 mux2x4 0 22 `^L1L@d0>BFgGX13ih9bV2
+l39
+L37
+VkodHZzY5zC[kKX:Gm<0BL3
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 IIM;5>783Pz[bhh3KR0Hh3
+Epc_update
+Z28 w1610537543
+R2
+R3
+R4
+Z29 8PC_Update.vhd
+Z30 FPC_Update.vhd
+l0
+L30
+VgUURIe[AKZ1Z8X6kzilI=0
+R7
+31
+R8
+R9
+!s100 M?3jPZBeJbgM86S57?[lk2
+Abehavioral
+R2
+R3
+R4
+DEx4 work 9 pc_update 0 22 gUURIe[AKZ1Z8X6kzilI=0
+l47
+L42
+V_`nJQAd>7W^AXW=K<UXmg3
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 L5UQT3TV<kTLWj_Db0T=Z0
+Epic24
+Z31 w1610716524
+Z32 DPx6 unisim 11 vcomponents 0 22 6Bno5d?=9BlFAj[lAHJHA1
+Z33 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R4
+Z34 8PIC24.vhf
+Z35 FPIC24.vhf
+l0
+L28
+VkOi1BYRO_GQY<YYkYfba82
+R7
+31
+R8
+R9
+!s100 SUflR5]OP2_<N8bKKVzJ62
+Abehavioral
+R32
+R33
+R4
+DEx4 work 5 pic24 0 22 kOi1BYRO_GQY<YYkYfba82
+l152
+L35
+VZN:jCKVQIiAeTOC]MC`_k0
+!s100 1cU;a:GJ?N;QWelfMfMEb3
+R7
+31
+R10
+Mx2 4 ieee 11 numeric_std
+Z36 Mx1 6 unisim 11 vcomponents
+R8
+R9
+Eprogcnt
+Z37 w1606597524
+R2
+R3
+R4
+Z38 8ProgCnt.vhd
+Z39 FProgCnt.vhd
+l0
+L30
+V<mc`YAhTNT9?5Ub6?^PJG0
+R7
+31
+R8
+R9
+!s100 R:S?zaZ^D=nnencFzQ1@92
+Abehavioral
+R2
+R3
+R4
+DEx4 work 7 progcnt 0 22 <mc`YAhTNT9?5Ub6?^PJG0
+l38
+L36
+VALFhGMQhI?8adYkYomI3F2
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 :z[fScV1@TdNjn8iMePn`1
+Erom32x24
+Z40 w1610716448
+R2
+R3
+R4
+Z41 8ROM32x24_testOV.vhd
+Z42 FROM32x24_testOV.vhd
+l0
+L30
+VBd:F0YEec4TL^UzXGW_QD3
+R7
+31
+R8
+R9
+!s100 dbAlABlZ<0=d?;4Rb51PG2
+Arom32x24_arch
+R2
+R3
+R4
+DEx4 work 8 rom32x24 0 22 Bd:F0YEec4TL^UzXGW_QD3
+l79
+L35
+VK4Z[K:MJClL36BE]0<2;51
+R7
+31
+R10
+R11
+R12
+R8
+R9
+!s100 ]]lTWfbT6bY;C7UF^EBF;3
+Etbw_pic24_1
+Z43 w1610656455
+R2
+R3
+Z44 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z45 DPx4 ieee 16 std_logic_textio 0 22 8YS?iX`WD1REQG`ZRYQGB2
+R33
+R4
+R32
+Z46 8tbw_pic24_1.vhw
+Z47 Ftbw_pic24_1.vhw
+l0
+L30
+VMzjoa3Ld8:DAdUnQH=OZ=3
+R7
+31
+R8
+R9
+!s100 lk6c1lX>_FdjMW@`JH9>R0
+Atestbench_arch
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+DEx4 work 11 tbw_pic24_1 0 22 Mzjoa3Ld8:DAdUnQH=OZ=3
+l52
+L33
+Vl[B3bPET[mEVEXPll=z^R0
+R7
+31
+Z48 Mx7 6 unisim 11 vcomponents
+Z49 Mx6 4 ieee 14 std_logic_1164
+Z50 Mx5 4 ieee 11 numeric_std
+Z51 Mx4 4 ieee 16 std_logic_textio
+Z52 Mx3 3 std 6 textio
+R11
+R12
+R8
+R9
+!s100 Qo5W^IQhM4JUGA_fK2BiX1
+Etbw_pic24_testc
+Z53 w1610654874
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+Z54 8tbw_pic24_testC.vhw
+Z55 Ftbw_pic24_testC.vhw
+l0
+L30
+VZ4<oi]QCcoM1^DX6`Nk_a1
+R7
+31
+R8
+R9
+!s100 G<28HRTKeTL_<89ahaY^]3
+Atestbench_arch
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+DEx4 work 15 tbw_pic24_testc 0 22 Z4<oi]QCcoM1^DX6`Nk_a1
+l54
+L33
+VKLizIkK1]I;6D8o3OAdT;3
+R7
+31
+R48
+R49
+R50
+R51
+R52
+R11
+R12
+R8
+R9
+!s100 Q8L9L=_6[z]^2Ua]fJRQ]1
+Etbw_pic24_testn
+Z56 w1610716034
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+Z57 8tbw_PIC24_testN.vhw
+Z58 Ftbw_PIC24_testN.vhw
+l0
+L30
+V_am649hnjf13NDJVDD9aW3
+R7
+31
+R8
+R9
+!s100 f_cJAlV;:?zL>[>MX^;DL3
+Atestbench_arch
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+DEx4 work 15 tbw_pic24_testn 0 22 _am649hnjf13NDJVDD9aW3
+l54
+L33
+Vkk2:mDCd2APbeeP9zFeYl0
+R7
+31
+R48
+R49
+R50
+R51
+R52
+R11
+R12
+R8
+R9
+!s100 ^>EF]M4eOK8zaQc5@>ldW2
+Etbw_pic24_testov
+Z59 w1610716607
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+Z60 8tbw_PIC24_testOV.vhw
+Z61 Ftbw_PIC24_testOV.vhw
+l0
+L30
+V9Bdjc6a4n6QBJI@U3G<JB1
+!s100 i:;f:[Tk4TMA9@lKkDJ612
+R7
+31
+R8
+R9
+Atestbench_arch
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+DEx4 work 16 tbw_pic24_testov 0 22 9Bdjc6a4n6QBJI@U3G<JB1
+l54
+L33
+VdXdC7;XO7R]^_`O[HaN]J3
+!s100 fzHR^FzlZJm6>N0;dDDQk0
+R7
+31
+R48
+R49
+R50
+R51
+R52
+R11
+R12
+R8
+R9
+Etbw_pic24_testz
+Z62 w1610715247
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+Z63 8tbw_PIC24_testZ.vhw
+Z64 Ftbw_PIC24_testZ.vhw
+l0
+L30
+VG5O60CTBo6Hn?FT=R38m?0
+R7
+31
+R8
+R9
+!s100 E8QjCP;7>kL:oQMTNaV;L2
+Atestbench_arch
+R2
+R3
+R44
+R45
+R33
+R4
+R32
+DEx4 work 15 tbw_pic24_testz 0 22 G5O60CTBo6Hn?FT=R38m?0
+l54
+L33
+V?`d49`=CU9@SQT8DHUAdV1
+R7
+31
+R48
+R49
+R50
+R51
+R52
+R11
+R12
+R8
+R9
+!s100 2gLP;ccI3lEd2md_6SI]W1

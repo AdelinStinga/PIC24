@@ -1,0 +1,11 @@
+[Inputs]
+Clk
+WrEn
+=RdReg1[3:0]=
+=RdReg2[3:0]=
+=WrReg[3:0]=
+=WrData[15:0]=
+[Outputs]
+=RdData1[15:0]=
+=RdData2[15:0]=
+[BiDir]
